@@ -45,7 +45,7 @@ function Passgenrator(props){
                         props.setCopied(true)
                         setInterval(()=>{
                             props.setCopied(false)
-                        },5000)
+                        },3000)
 
                        
                     }
