@@ -43,8 +43,16 @@ function Passgenrator(props){
                     if(props.Password.length>0){
                         navigator.clipboard.writeText(props.Password)
                         props.setCopied(true)
+                        setInterval(()=>{
+                            props.setCopied(false)
+                        },10000)
+
+                       
                     }
-                }}><MdFileCopy /></button>
+                    
+                }}> 
+                {props.Copied ? "Copied" : <MdFileCopy />}
+                </button>
             </div>
 
             <div className="lengthcontainer">
