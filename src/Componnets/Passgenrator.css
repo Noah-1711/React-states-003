@@ -98,3 +98,33 @@
     transform: scale(0.98);
     box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
+
+@media only screen  and (max-width:480px){
+  .passwordcontainer{
+    width: 90%;
+    height: 60%;
+  }
+  .heading h1{
+    font-size: 22px;
+  }
+}
+
+@media only screen  and (min-width:481px) and (max-width:700px){
+  .passwordcontainer{
+    width: 80%;
+    height: 65%;
+  }
+  .heading h1{
+    font-size: 22px;
+  }
+}
+
+@media only screen  and (min-width:701px) and (max-width:900px){
+  .passwordcontainer{
+    width: 70%;
+    height: 65%;
+  }
+  .heading h1{
+    font-size: 22px;
+  }
+}

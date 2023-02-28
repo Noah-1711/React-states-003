@@ -38,7 +38,7 @@ function Passgenrator(props){
             </div>
 
             <div className="inputcontainer">
-                <input type="text" value={props.Password} />
+                <input type="text" value={props.Password} />               
                 <button onClick={()=>{
                     if(props.Password.length>0){
                         navigator.clipboard.writeText(props.Password)
